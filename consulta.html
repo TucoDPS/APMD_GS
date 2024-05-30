@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <title>Consulta de Viagens - Projeto Limpeza dos Oceanos</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <header>
+        <h1>Consulta de Viagens</h1>
+        <nav class="navbar">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="cadastro.html">Cadastrar Viagem</a></li>
+                <li><a href="relatorio.html">Relatório</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="consulta-main">
+        <div class="search-container">
+            <input type="text" id="search" placeholder="Buscar viagens...">
+        </div>
+        <ul id="viagensList"></ul>
+        <button id="deleteSelected" class="button" disabled>Excluir Selecionados</button>
+    </main>
+    <script src="assets/js/consulta.js"></script>
+</body>
+</html>

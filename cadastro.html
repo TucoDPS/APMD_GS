@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <title>Cadastro de Viagens - Projeto Limpeza dos Oceanos</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <header>
+        <h1>Cadastro de Viagens</h1>
+        <nav class="navbar">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="consulta.html">Consultar Viagens</a></li>
+                <li><a href="relatorio.html">Relatório</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="cadastro-main">
+        <form id="cadastroForm">
+            <label for="data">Data:</label>
+            <input type="date" id="data" name="data" required>
+            
+            <label for="local">Local:</label>
+            <input type="text" id="local" name="local" required>
+            
+            <label for="peso">Peso (kg):</label>
+            <input type="number" id="peso" name="peso" required>
+            
+            <button type="submit" class="button">Cadastrar</button>
+        </form>
+    </main>
+    <script src="assets/js/main.js"></script>
+</body>
+</html>

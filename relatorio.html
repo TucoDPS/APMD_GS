@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <title>Relatório - Projeto Limpeza dos Oceanos</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <header>
+        <h1>Relatório - Projeto Limpeza dos Oceanos</h1>
+        <nav class="navbar">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="cadastro.html">Cadastrar Viagem</a></li>
+                <li><a href="consulta.html">Consultar Viagens</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="relatorio-main">
+        <table id="relatorioTable">
+            <thead>
+                <tr>
+                    <th>Nome</th>
+                    <th>Data</th>
+                    <th>Peso (kg)</th>
+                </tr>
+            </thead>
+            <tbody id="relatorioBody"></tbody>
+        </table>
+        <div id="totalViagens" class="total-viagens"></div>
+        <div id="mediaPeso" class="media-peso"></div>
+    </main>
+    <script src="assets/js/relatorio.js"></script>
+</body>
+</html>
